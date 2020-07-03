@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Travelperk Website Test</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A website test for Travelperk" />
+    <meta name="keywords" content="HTML, SASS, SCSS, Javascript, Travelperk" />
+    <meta name="author" content="Daniel Thompson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <article class="section-one">
+      <div class="header">
+        <img
+          src="./assets/tpLogos/tpWhiteLogo.png"
+          alt="Travelperk Logo White"
+          class="travelperk-white-logo"
+        />
+        <div class="container">
+          <h1>This here is a basic header with logos</h1>
+          <img
+            src="./assets/images/headerImage.png"
+            alt="Business people walking outside"
+            class="header-image"
+          />
+
+          <p class="header-p">
+            Lorem ipsum dolor sit amet, consectetur aure adipiscing elit. Aenean
+            rutrum ac risus eu posuere. Integer malesuada leo sit amet commodo
+            in.
+          </p>
+
+          <button type="button" class="button button-pink">Get started</button>
+          <button type="button" class="button button-white">
+            Request demo
+          </button>
+        </div>
+        <section class="used-by">
+          <p>As used by</p>
+          <img src="./assets/companyLogos/groupLogos.png" class="desktop-header-icons" />
+          <img src="./assets/companyLogos/groupMobileLogos.png" class="mobile-header-icons" />
+        </div>
+      </header>
+    </article>
+    <article class="section-two">
+      <div>
+        <header>
+          <h1>What makes TravelPerk so perky?</h1>
+        </header>
+        <img class="section-two-image" src="./assets/images/headerImage.png" alt="Business people walking outside" />
+        <ol>
+          <li>7-star customer support</li>
+          <li>One consolidated monthly invoice
+          <ol class="inner-ol">
+            <li>7-star customer support</li>
+            <li>One consolidated invoice</li>
+            <li>Instant overview of all travel data</li>
+            <li>Track travelers' whereabouts</li>
+          </ol></li>
+          <li>Instant overview of all travel data</li>
+          <li>Track travelers' whereabouts</li>
+        </ol>
+      </div>
+    </article>
+    <article class="section-three">
+      <div>
+        <section class="image-group-one">
+          <img src="assets/images/sideImage1.png" alt="Woman smiling">
+          <p class="quote">
+            "I realized this really could improve my travel management. This is actually the tool that can make everything much more scalable."
+          </p>
+          <p class="author">
+            Mandy Mill
+          </p>
+          <p class="company">
+            Team Lead at Get Your Guide
+          </p>
+        </section>
+        <section class="image-group-two">
+          <img src="assets/images/sideImage2.png" alt="Man sitting">
+          <p class="quote">
+            "Before TravelPerk, we were booking trips in a very old school way. We were booking flights and hotels on consumer websites, and it was a nightmare to keep track of everything."
+          </p>
+          <p class="author">
+            Oliver Billon
+          </p>
+          <p class="company">
+            CEO at Ykone
+          </p>
+        </section>
+      </div>
+    </article>
+    <article class="section-four">
+      <div>
+        <img src="./assets/companyLogos/customerLogos.png" class="customer-desktop-group">
+        <img src="./assets/companyLogos/customerMobileLogos.png" class="customer-mobile-group">
+      </div>
+    </article>
+    <article class="section-five">
+      <div>
+        <img src="./assets/images/sectionFiveImage.png">
+      </div>
+    </article>
+    <footer>
+      <div>
+        <section class="text-left">
+          <img src="./assets/tpLogos/tpBlueSmallLogo.png">
+          <p class="desktop-copyright">Copyright © 2020 TravelPerk. All rights reserved.</p>
+          <p class="mobile-copyright">Copyright © 2020 TravelPerk.</p>
+        </section>
+        <section class="text-right">
+          <p>Terms of use</p>
+          <p>Privacy policy</p>
+          <p>Cookie policy</p>
+        </section>
+      </div>
+    </footer>
+
+    <div class="js-holder">
+      <h1>My favourite author:</h1>
+      <div id="jsContent"><p>Loading...</p></div>
+    </div>
+
+    <script src="js/api.js"></script>
+  </body>
+</html>
