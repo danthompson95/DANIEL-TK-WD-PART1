@@ -65,6 +65,7 @@ function processData(works, biography, firstName, lastName) {
 
   document.getElementById("jsContent").innerHTML = fullString;
 }
-setTimeout(() => {
+
+setTimeout(function () {
   getAuthorData("Christopher", "Paolini");
 }, 1000);
